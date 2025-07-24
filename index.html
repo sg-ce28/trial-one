@@ -86,12 +86,10 @@
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
             const messageElement = document.getElementById('message');
+            const adminname = 'computerman70';
+            const adminword = 'Wm!e2KoPeJ19';
 
-            // Hardcoded credentials for educational purposes (NOT SECURE FOR REAL USE)
-            const correctUsername = 'user123';
-            const correctPassword = 'password123';
-
-            if (username === correctUsername && password === correctPassword) {
+            if (username === adminname && password === adminword) {
                 messageElement.textContent = 'Login successful! Redirecting...';
                 messageElement.style.color = 'green';
                 window.location.href = 'welcome.html'; // Redirect to the welcome page
